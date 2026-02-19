@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 50px; /*esse detalhe eu só consegui colocar na aula, porque ainda não sabia como fazer */
+}
+h1 {
+  text-align: center;
+}
+.carro {
+  background-color: #111111;
+  block-size: 140px;
+  padding: 40px;
+  padding-top: 20px;
+  border-radius: 4px;
+  margin: 20px;
+}
+.bicicleta {
+  background-color: #111111;
+  block-size: 140px;
+  padding: 40px;
+  padding-top: 20px;
+  border-radius: 4px;
+  margin: 20px;
+}
+h2 {
+  color: #ffffff;
+  /*OBS ao invés de eu ter colocado padding-top: 20px; eu poderia ter colocado margin: 0 px; aqui para tirar a margin do texto h2, e ele não ficar tão embaixo, mas as duas formas deram um bom resultado*/
+}
+p {
+  color: #b2b2b2;
+}
+a {
+  color: #febe01;
+}
+button {
+  background-color: #febe01;
+  color: #332200;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font: inherit;
+}
+/* para o botão, o professor usou outra forma, ele usou o elemento inline <a href="/">Comprar...</a> logo para estilizar ele usou os seguintes comandos 
+
+display: inline-block;  (para transformar o elemento em um bloco, para poder usar as propriedades de bloco, como padding e border-radius)
+
+background: #febe01; (para colocar a cor de fundo)
+
+color: #332200; (para mudar a cor da tipografica)
+
+padding: 10px; (para colocar um espaçamento interno, para o texto não ficar colado nas bordas)
+
+border-radius: 4px; (para arredondar os cantos)
+
+text-decoration: none; (para tirar o sublinhado)(obs:.se quisesse colocar seria >>> underline <<<)*/
